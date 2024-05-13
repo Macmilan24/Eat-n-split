@@ -10,3 +10,9 @@ The application consists of a sidebar displaying a list of friends and their bal
 - **Friend List:** Displays a list of friends along with their balances.
 - **Balance Indicator:** Indicates whether each friend owes money or is owed money.
 - **Interaction:** Provides a button to select a friend, which can be further extended for interaction, like settling debts or adding new expenses.
+## Usage
+
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
+4. Access the application in your browser at `http://localhost:3000`.
