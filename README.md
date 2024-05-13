@@ -16,3 +16,8 @@ The application consists of a sidebar displaying a list of friends and their bal
 2. Install dependencies using `npm install`.
 3. Start the development server with `npm start`.
 4. Access the application in your browser at `http://localhost:3000`.
+## Technologies Used
+
+- React: Frontend JavaScript library for building user interfaces.
+- JavaScript (ES6+): Programming language for building web applications.
+- HTML/CSS: Markup and styling for the user interface.
