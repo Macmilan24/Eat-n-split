@@ -27,10 +27,10 @@ Contributions to the Splitwise React App are encouraged and welcome! If you'd li
 
 1. **Fork the Repository**: Fork the repository to your GitHub account by clicking the "Fork" button at the top right of the repository page. This will create a copy of the project in your GitHub account.
 
-2. **Clone the Repository**: Clone your forked repository to your local machine using Git. Replace `<your-username>` with your GitHub username.
+2. **Clone the Repository**: Clone your forked repository to your local machine using Git. 
 
     ```bash
-    git clone https://github.com/<your-username>/splitwise-react-app.git
+    git clone https://github.com/<your-username>/Eat-n'-Split.git
     ```
 3. **Create a Branch**: Create a new branch to work on your changes. Use a descriptive name for the branch that reflects the purpose of your changes.
 
@@ -53,3 +53,10 @@ Contributions to the Splitwise React App are encouraged and welcome! If you'd li
     ```bash
     git push origin feature/new-feature
     ```
+8. **Submit a Pull Request**: Go to the GitHub page of your forked repository and click on the "New pull request" button. Provide a descriptive title and detailed description for your pull request, explaining the changes you've made and why they're necessary.
+
+9. **Review and Collaborate**: Collaborate with other contributors and maintainers to review your pull request. Address any feedback or comments and make any necessary changes.
+
+10. **Merge Your Pull Request**: Once your pull request has been approved and all discussions are resolved, it will be merged into the main repository by a maintainer.
+
+Thank you for contributing to the Eat-n'-Split React App!
