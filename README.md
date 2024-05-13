@@ -21,3 +21,14 @@ The application consists of a sidebar displaying a list of friends and their bal
 - React: Frontend JavaScript library for building user interfaces.
 - JavaScript (ES6+): Programming language for building web applications.
 - HTML/CSS: Markup and styling for the user interface.
+## How to Contribute
+
+Contributions to the Splitwise React App are encouraged and welcome! If you'd like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Fork the repository to your GitHub account by clicking the "Fork" button at the top right of the repository page. This will create a copy of the project in your GitHub account.
+
+2. **Clone the Repository**: Clone your forked repository to your local machine using Git. Replace `<your-username>` with your GitHub username.
+
+    ```bash
+    git clone https://github.com/<your-username>/splitwise-react-app.git
+    ```
