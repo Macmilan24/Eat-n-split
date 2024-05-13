@@ -41,4 +41,15 @@ Contributions to the Splitwise React App are encouraged and welcome! If you'd li
 4. **Make Changes**: Make your desired changes to the codebase. This could include bug fixes, new features, improvements to existing features, or documentation updates.
 
 5. **Test Your Changes**: Ensure that your changes work as expected and do not introduce any new issues. Run any necessary tests to verify the functionality of the application.
+6. **Commit Your Changes**: Once you're happy with your changes, commit them to your branch with descriptive commit messages.
 
+    ```bash
+    git add .
+    git commit -m "Add new feature: description of changes"
+    ```
+
+7. **Push Your Changes**: Push your changes to your forked repository on GitHub.
+
+    ```bash
+    git push origin feature/new-feature
+    ```
