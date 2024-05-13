@@ -32,3 +32,13 @@ Contributions to the Splitwise React App are encouraged and welcome! If you'd li
     ```bash
     git clone https://github.com/<your-username>/splitwise-react-app.git
     ```
+3. **Create a Branch**: Create a new branch to work on your changes. Use a descriptive name for the branch that reflects the purpose of your changes.
+
+    ```bash
+    git checkout -b feature/new-feature
+    ```
+
+4. **Make Changes**: Make your desired changes to the codebase. This could include bug fixes, new features, improvements to existing features, or documentation updates.
+
+5. **Test Your Changes**: Ensure that your changes work as expected and do not introduce any new issues. Run any necessary tests to verify the functionality of the application.
+
