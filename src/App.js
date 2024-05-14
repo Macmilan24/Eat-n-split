@@ -36,11 +36,23 @@ export default function App() {
     setFriend((friends) => [...friends, friend]);
     setShowAddFriend(false);
   }
+
+  function handleSelection(friend) {
+    setSelectedFriend(friend);
+  }
+
   return (
     <div className="app">
       <div className="sidebar">
         <FriendsList friends={friends} />
-        {showAddFriend && <FormAddFriend onAddFriend={handleAddFriend} />}
+
+        {showAddFriend && (
+          <FormAddFriend
+            onAddFriend={handleAddFriend}
+            onSelection={handleSelection}
+          />
+        )}
+
         <Button onClick={handleshowAddFriend}>
           {showAddFriend ? "Close" : "Add friend"}
         </Button>
@@ -60,7 +72,7 @@ function FriendsList({ friends }) {
   );
 }
 
-function Friend({ friend }) {
+function Friend({ friend, onSelection }) {
   return (
     <li>
       <img src={friend.image} alt={friend.name} />
@@ -77,7 +89,7 @@ function Friend({ friend }) {
       )}
       {friend.balance === 0 && <p>you and {friend.name} are even</p>}
 
-      <Button>Select</Button>
+      <Button onClick={() => onSelection(friend)}>Select</Button>
     </li>
   );
 }
