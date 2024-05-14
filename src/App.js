@@ -81,3 +81,11 @@ function FormAddFriend() {
     </form>
   );
 }
+
+function FormSplitBill() {
+  return (
+    <form className="form-split-bill">
+      <h2></h2>
+    </form>
+  );
+}
