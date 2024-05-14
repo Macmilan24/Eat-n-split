@@ -24,6 +24,8 @@ const initialFriends = [
 export default function App() {
   const [showAddFriend, setShowAddFriend] = useState(false);
 
+  const [selectedFriend, setSelectedFriend] = useState(null);
+
   const [friends, setFriend] = useState(initialFriends);
 
   function handleshowAddFriend() {
@@ -43,7 +45,7 @@ export default function App() {
           {showAddFriend ? "Close" : "Add friend"}
         </Button>
       </div>
-      <FormSplitBill />
+      {selectedFriend && <FormSplitBill />}
     </div>
   );
 }
