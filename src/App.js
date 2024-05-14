@@ -24,13 +24,15 @@ const initialFriends = [
 export default function App() {
   const [showAddFriend, setShowAddFriend] = useState(false);
 
+  const [friend, setFriend] = useState(initialFriends);
+
   function handleshowAddFriend() {
     setShowAddFriend((show) => !show);
   }
   return (
     <div className="app">
       <div className="sidebar">
-        <FriendsList />
+        <FriendsList friend={friend} />
 
         {showAddFriend && <FormAddFriend />}
         <Button onClick={handleshowAddFriend}>
@@ -42,9 +44,7 @@ export default function App() {
   );
 }
 
-function FriendsList() {
-  const friend = initialFriends;
-
+function FriendsList({ friend }) {
   return (
     <ul>
       {friend.map((friend) => (
